@@ -34,10 +34,10 @@ async function startServer() {
 
     try {
       const resend = getResend();
-      // Send email to João
+      // Send email
       const { data, error } = await resend.emails.send({
-        from: "Portfolio <onboarding@resend.dev>",
-        to: ["joaopedrocardosods@gmail.com"],
+        from: process.env.EMAIL_FROM || "Portfolio <onboarding@resend.dev>",
+        to: [process.env.EMAIL_TO || "joaopedrocardosods@gmail.com"],
         subject: `Novo Projeto: ${projectType} - ${name}`,
         html: `
           <h1>Novo contato do Portfolio</h1>

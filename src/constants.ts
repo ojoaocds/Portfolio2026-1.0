@@ -193,10 +193,9 @@ export const TESTIMONIALS: Testimonial[] = [
 ];
 
 export const JOAO_PHOTOS = [
-  "https://picsum.photos/seed/joao1/800/1000",
-  "https://picsum.photos/seed/joao2/800/1000",
-  "https://picsum.photos/seed/joao3/800/1000",
-  "https://picsum.photos/seed/joao4/800/1000"
+  "https://picsum.photos/seed/joao-headphones/800/1000",
+  "https://picsum.photos/seed/joao-close/800/1000",
+  "https://picsum.photos/seed/joao-jiujitsu/800/1000"
 ];
 
 export const INSTAGRAM_POSTS = [
